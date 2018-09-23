@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "login-action;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20996244490,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on login page",
+            "match": {
+              "location": "ExcelDriveLoginImpln.User_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3920667498,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Create the Excel Workbook \"TestData.xlsx\" and create the test data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TestData.xlsx",
+                  "offset": 29
+                }
+              ],
+              "location": "ExcelDriveLoginImpln.I_Create_the_Excel_Workbook_and_create_the_test_data(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9734008390,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Login to the application",
+            "match": {
+              "location": "ExcelDriveLoginImpln.I_Login_to_the_application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "C:/WorkSpaceSeleniumSelf/Ecommerce/src/main/java/Featured/ExcelDriveLogin.feature"
+  }
+]
