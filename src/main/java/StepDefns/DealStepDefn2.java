@@ -34,6 +34,7 @@ public class DealStepDefn2 {
 		driver.manage().timeouts().implicitlyWait(3000, TimeUnit.SECONDS);
 		driver.get(" https://www.freecrm.com");
 		driver.manage().window().maximize();
+		System.out.println("Browser launched successfully");
 		
 		
 
